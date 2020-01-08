@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DD1C36">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewLogo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp"
+                android:layout_marginTop="200dp"
+                app:srcCompat="@drawable/lule" />
+
+            <EditText
+                android:id="@+id/editTextUserName"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:backgroundTint="#ffffff"
+                android:hint="E-posta"
+                android:inputType="textEmailAddress"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textColorLink="#ffffff"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/editTextUserPassword"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:backgroundTint="#ffffff"
+                android:hint="Parola"
+                android:inputType="textPassword"
+                android:shadowColor="#ffffff"
+                android:textColor="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textColorLink="#ffffff"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#ffffff"
+                android:text="Oturum Aç"
+                android:textAllCaps="false"
+                android:textColor="#DD1C36"
+                android:textColorLink="#ffffff" />
+
+            <TextView
+                android:id="@+id/txtRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="E-posta ile kaydol"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
